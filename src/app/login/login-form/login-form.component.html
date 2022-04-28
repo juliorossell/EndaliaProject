@@ -1,0 +1,31 @@
+
+<div class="container w-100 ">
+  <form [formGroup] ="loginForm" autocomplete="off" class="w-450p flex-column">
+
+    <h2 class="mb-05">Bienvenido/a</h2>
+
+    <label class="mb-2 label-form ">Introduce tus credenciales para acceder</label>
+
+
+    <div class="flex-row jc-between mb-1">
+      <label class="w-40 flex-row al-center label-form ">Usuario</label>
+      <input type="text" class="form-control" placeholder="angular@endelia.com" formControlName="email">
+    </div>
+
+    <div class="flex-row jc-between mb-2">
+      <label class="w-40 flex-row al-center label-form ">Contraseña</label>
+      <input type="password" class="form-control" formControlName="password">
+    </div>
+
+    <div class="flex-row mb-2">
+      <button class="btn btn-primary main-button-s w-100" (click) ="onSubmitForm()">Acceder &nbsp;</button>
+    </div>
+
+
+    <span class="error" *ngIf="errorMessage">{{errorMessage}}.</span>
+
+  </form>
+
+  <app-spinner *ngIf="loadingPage"></app-spinner>
+
+</div>

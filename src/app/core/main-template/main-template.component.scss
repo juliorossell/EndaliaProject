@@ -1,0 +1,39 @@
+
+.layout-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+
+.menu-sidebar {
+  margin-top: 1rem;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: auto;
+  order: 0;
+}
+
+
+.expanded {
+  width: 16rem;
+}
+
+
+.content  {
+  margin-top: 1rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+
+.main-content {
+  order: 1;
+  flex: 1 0;
+  min-width: 0;
+  padding: 0 2.25rem 0.75rem;
+}

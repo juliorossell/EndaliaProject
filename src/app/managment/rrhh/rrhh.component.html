@@ -1,0 +1,17 @@
+<div class="flex-column">
+  <h2>Directorio de empleados</h2>
+
+  <form [formGroup]="searchUserForm" class="w-100 mb-2">
+    <input type="text" placeholder="Buscar..." class="form-control gap-50" formControlName="searchInput">
+  </form>
+
+  <div class="flex-gap">
+    <ng-container *ngFor="let item of userList">
+      <app-card class="gap-50" [userInfo] ="item"></app-card>
+    </ng-container>
+
+  </div>
+
+
+
+</div>

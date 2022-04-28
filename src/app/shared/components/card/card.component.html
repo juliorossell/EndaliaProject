@@ -1,0 +1,13 @@
+<div class="panel flex-row">
+  <div class="flex-row al-center p-1">
+    <img class="img-logo" [src]="userInfo.imagenPath">
+  </div>
+
+
+  <div class="flex-column">
+    <h3 class="mb-03">{{ userInfo.lastName | uppercase }},  {{ userInfo.name }}</h3>
+    <span class="card-job">{{ userInfo.job }}</span>
+    <span class="card-phone">{{ userInfo.phone }}</span>
+    <span class="card-mail">{{ userInfo.email }}</span>
+  </div>
+</div>

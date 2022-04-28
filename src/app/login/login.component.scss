@@ -1,0 +1,17 @@
+.bg-white{
+  padding: 2rem;
+  background-color: white;
+  min-width: 500px;
+}
+
+.principal-container {
+  background-image: url("../../assets/images/imagen-bg.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-end {
+  width: 180px;
+}

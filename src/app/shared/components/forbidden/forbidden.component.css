@@ -1,0 +1,10 @@
+.hv-100{
+  height: 100vh;
+}
+
+.forbidden{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

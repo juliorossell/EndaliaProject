@@ -1,0 +1,55 @@
+@import 'colors.scss';
+
+/* For the "inset" look only */
+
+.btn {
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 0.125rem solid transparent;
+  min-width: 146px;
+
+  &:disabled {
+    background-color: $gray-three !important;
+    cursor: auto;
+    pointer-events: none;
+    color: #fff ;
+    border: 0.125rem solid transparent !important;
+  }
+
+  &.main-button-m {
+    padding: 14px 20px;
+    font-size: 20px;
+  }
+
+  &.main-button-s {
+    font-size: 14px;
+    padding: 9px 20px;
+  }
+
+  &.btn-primary {
+    background-color: $blue-endelia;
+    color: $white;
+
+    &:hover {
+      background-color: $blue-endelia-hover;
+    }
+  }
+
+  &.btn-secondary {
+    color: $light-blue;
+    background-color: $white;
+    border-color: $light-blue;
+
+    &:hover {
+      background-color: $light-blue-hover;
+      color: $white;
+    }
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+

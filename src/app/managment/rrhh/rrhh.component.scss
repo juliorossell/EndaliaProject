@@ -1,0 +1,13 @@
+.flex-gap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-gap > * {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.gap-50 {
+  width: calc(50% - 10px);
+}

@@ -1,0 +1,151 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import './styles/colors.scss';
+@import './styles/form-styles.scss';
+@import './styles/buttons-styles.scss';
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jc-center{
+  justify-content: center;
+}
+
+.jc-between{
+  justify-content: space-between;
+}
+
+.jc-around{
+  justify-content: space-around;
+}
+
+.al-center{
+  align-items: center;
+}
+
+.mlr-4 {
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.ptb-2{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.prl-1{
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mr-2{
+  margin-right: 2rem;
+}
+
+.mb-05{
+  margin-bottom: 0.5rem;
+}
+
+.ml-1{
+  margin-left: 1rem;
+}
+
+.ml-2{
+  margin-left: 2rem;
+}
+
+.mt-2{
+  margin-top: 2rem;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  padding: 0.5em;
+}
+
+
+tbody td {
+  padding: 0.5em;
+}
+
+
+.card {
+  background-color: white;
+}
+
+
+.router-link-active {
+  background-color: #34495E;
+  & span {
+    color: white
+  }
+}
+
+.w-40 {
+  width: 40%;
+}
+
+
+.w-50 {
+  width: 50%;
+}
+
+
+.w-100 {
+  width: 100%;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.w-400p{
+  width: 400px;
+}
+
+.w-450p{
+  width: 450px;
+}

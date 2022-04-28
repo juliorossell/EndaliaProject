@@ -1,0 +1,10 @@
+<div class="flex-row al-center w-100 bg-blue jc-between ">
+  <div class="flex-row al-center ml-1">
+    <span class="ml-1">Endalia HR</span>
+  </div>
+
+  <a href="javascript:void(0)" (click)="onLogout()" class="mr-2">
+    <i class="fa fa-lg fa-sign-out c-white" aria-hidden="true"></i>
+  </a>
+</div>
+<app-spinner *ngIf="loadingPage"></app-spinner>
